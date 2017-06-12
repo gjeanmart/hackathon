@@ -1,4 +1,4 @@
-# MyTytor / DTS (Decentralized Tutoring System)
+# MyTutor / DTS (Decentralized Tutoring System)
 
 Settings:
 ```
@@ -32,6 +32,7 @@ The backend contains three main contracts:
 - AdsRegistry: Registry for all Ads 
 - CourseRegistry: Registry for all courses. Contains a pointer to Course
 - Course: each course are a stored as a separated contract 
+
 The technologies and frameworks used are Solidity and Truffle 3.1
 
 
@@ -68,7 +69,7 @@ The following tools has been use to develop this project:
 **status-dev-cli** 
 `npm install -g status-dev-cli`
 
-**status-dev-cli** 
+**Ionic** 
 `npm install -g ionic`
 
 
@@ -146,14 +147,15 @@ This projecr is a prototype so obviously many things can be improved and impleme
 
 ### Dapp integration: 
 Great, easy to use. A working Mobile Ethereum gateway. The main Mobile frameworks (Ionic & ReactNative) are compatible and can be  easily integrated with tools like Truffle and Web3. That's an important step forward for public adoption. 
-I've noticed some recurrent error [http://imgur.com/a/OGZUD]
+I've noticed some recurrent error [ http://imgur.com/a/OGZUD ]
 
 ### Tools
 Do the job. 
-- status-dev-cli watch doesn't work [https://github.com/status-im/status-dev-cli/issues/11]
+- status-dev-cli watch doesn't work [ https://github.com/status-im/status-dev-cli/issues/11 ]
 
 ### Chatbot: 
-The first intention was to build a dapp and a chat bit but unfortunately I run out of time. Even it's the idea of a chat API is really great, this particular API is currently hard to understand tand no really documented. 
+The first intention was to build a dapp and a chat bit but unfortunately I run out of time. Even it's the idea of a chat API is really great, this API is currently hard to understand tand no really documented. 
+
 I would like to see in this api:
 - Ability to add a contact and start a chat with one or multiple person/robot 
 - Use of promise, requirejs to facilitate the integration with dapp
